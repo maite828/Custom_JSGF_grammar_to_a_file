@@ -1,0 +1,11 @@
+#JSGF V1.0 utf-8 en;
+
+grammar music_play;
+
+public <music_play> = [can you] ( (play | put on | i want to listen  | put | play me) [<item>] [<oneormoreitem>] | play me <album> [by] <artist> | put [<item>] [on]);
+<oneormoreitem> = <item> | and | with ;
+<item> = <artist> | <song>  | <album>  | <genre> ;
+<artist> = the beatles | radiohead | lady gaga | pink floyd {artist};
+<song>  = comfortably numb | paranoid android | let it be | hey jude {song};
+<album> = ummagumma {album};
+<genre> = jazz {genre};
