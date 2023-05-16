@@ -29,8 +29,9 @@ python grammar_validator.py <grammar_file> <command>
 ## Example
 
 Let's demonstrate the usage with an example: 
-1. Validate an invalid grammar file:
-```python grammar_validator.py grammar_en.jsgf "play music"
+1. Validate an valid grammar file:
+```
+python grammar_validator.py grammar_en.jsgf "play music"
 ```
 
 Suppose we have a JSGF grammar file named `grammar_en.jsgf` with the following content:
