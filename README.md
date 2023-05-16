@@ -12,14 +12,10 @@ This script allows you to read and validate JSGF (Java Speech Grammar Format) gr
 1. Install the required dependencies:
 pip install jsgf==1.9.0
 
-arduino
-Copy code
 
 2. Run the script using the following command:
 python grammar_validator.py <grammar_file> <command>
 
-vbnet
-Copy code
 
 - `<grammar_file>`: The path to the JSGF grammar file.
 - `<command>`: The command to parse and match against the grammar rules.
